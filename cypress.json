@@ -1,0 +1,17 @@
+{
+  "env": {
+    "username": "replace your username",
+    "password": "replace your password"
+  },
+  "baseUrl": "https://syntaq-falcon-preprod-test.azurewebsites.net/",
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "experimentalNetworkStubbing": true,
+  "defaultCommandTimeout": 10000,
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+    "testsuitesTitle": false
+  },
+  "projectId": "815d5r"
+}

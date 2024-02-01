@@ -1,0 +1,19 @@
+{
+  "name": "syntaqfalconcypresstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-multi-reporters": "^1.2.4",
+    "mocha-junit-reporter": "^1.23.3",
+    "cypress-file-upload": "^4.1.1"
+  },
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --env username=tong,password=tongy --record --key 891f388a-dbc7-4e6a-acfb-40cfc49c0080",
+    "open": "node_modules\\.bin\\cypress open --env username=tong,password=tongy"
+  },
+  "author": "",
+  "license": "ISC"
+}
